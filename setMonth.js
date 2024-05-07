@@ -1,5 +1,3 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-console.log(+"1" +  "1" + "2");
-const isEmptyArray = arr => !arr.length;
-console.log(false === '0');
-const channelName = getChannelName(channel);
+console.log("1 && 2 = "+(1 && 2));
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const stringReverse = str => str.split("").reverse().join("");
