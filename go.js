@@ -1,3 +1,1 @@
-console.log(1 +  -"1" + "2");
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const toggleBool = () => (bool = !bool);
