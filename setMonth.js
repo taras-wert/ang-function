@@ -1,3 +1,3 @@
-console.log("1 && 2 = "+(1 && 2));
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const stringReverse = str => str.split("").reverse().join("");
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
