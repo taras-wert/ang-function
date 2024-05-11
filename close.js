@@ -1,3 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const arrayContains = (arr, element) => arr.includes(element);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
