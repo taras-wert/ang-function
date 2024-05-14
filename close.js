@@ -1,2 +1,3 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
+console.log(false == '0');
+var arr1 = "john".split('');
