@@ -1,1 +1,3 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const reversedString = str => str.split('').reverse().join('');
+const repositoryRootPath = path.resolve(__dirname, '..');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
