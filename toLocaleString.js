@@ -1,3 +1,2 @@
-const reversedString = str => str.split('').reverse().join('');
-const repositoryRootPath = path.resolve(__dirname, '..');
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log(typeof typeof 1);
+console.log("0 || 1 = "+(0 || 1));
