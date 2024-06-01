@@ -1,2 +1,2 @@
-console.log(typeof typeof 1);
-console.log("0 || 1 = "+(0 || 1));
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
