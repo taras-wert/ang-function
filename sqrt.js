@@ -1,3 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log(typeof typeof 1);
-function myAPITS(someString: string, someNum: number) { ... };
+console.log( "A" - "B" + 2);
+const arrayContains = (arr, element) => arr.includes(element);
