@@ -1,2 +1,3 @@
-console.log( "A" - "B" + 2);
-const arrayContains = (arr, element) => arr.includes(element);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+function myAPITS(someString: string, someNum: number) { ... };
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
