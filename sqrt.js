@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-console.log("1 && 2 = "+(1 && 2));
-console.log(typeof typeof 1);
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const randomString = () => Math.random().toString(36).slice(2);
+const uniqueArr = (arr) => [...new Set(arr)];
