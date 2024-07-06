@@ -1,2 +1,1 @@
-console.log(false === '0');
-const minNumber = arr => Math.min(...arr);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
