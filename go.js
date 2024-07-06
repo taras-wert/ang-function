@@ -1,3 +1,3 @@
-const merge = [...new Set([...a, ...b])];
-var DELIM_SIZE = 4;
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+var pattern = {};
+console.log( "A" - "B" + 2);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
