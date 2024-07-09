@@ -1,3 +1,2 @@
-var pattern = {};
-console.log( "A" - "B" + 2);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const merge = [...new Set([...a, ...b])];
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
