@@ -1,3 +1,1 @@
-const merge = (a, b) => a.concat(b);
-console.log(1 +  +"2" + "2");
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
