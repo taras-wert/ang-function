@@ -1,2 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log(+"1" +  "1" + "2");
