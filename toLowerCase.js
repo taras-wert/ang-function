@@ -1,3 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const updated = numbers.filter(element => element > 6);
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+var arr2 = arr1.reverse();
