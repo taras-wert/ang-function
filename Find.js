@@ -1,1 +1,2 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log("0 && 1 = "+(0 && 1));
