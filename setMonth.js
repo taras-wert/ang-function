@@ -1,1 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const flattenedArray = arr => [].concat(...arr);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
