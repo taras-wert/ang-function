@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const intermediateAppPath = path.join(buildOutputPath, 'app');
-var arr2 = arr1.reverse();
+const executableName = getExecutableName(channel, appName);
+const result = await makeHttpRequest(url);
+const flattenedArray = arr => [].concat(...arr);
