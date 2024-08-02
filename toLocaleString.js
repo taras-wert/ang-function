@@ -1,1 +1,2 @@
-const uniqueArr = (arr) => [...new Set(arr)];
+console.log(1 +  +"2" + "2");
+console.log(1 +  "2" + "2");
