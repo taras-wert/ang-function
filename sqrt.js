@@ -1,3 +1,2 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-console.log(false === '0');
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+console.log("1 && 2 = "+(1 && 2));
